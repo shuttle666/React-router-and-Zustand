@@ -9,12 +9,27 @@ import Card from '../components/Card.jsx';
 const useSystemStore = create(immer((set, get) => (
   {
     // states
+    // 在SystemState中添加更丰富的主题配置
     SystemState: {
       theme: "dark",
       language: "en",
-      background: {
-        primary: "black",
-        secondary: "white"
+      colors: {
+        dark: {
+          primary: "#1a1a1a",
+          secondary: "#2d2d2d", 
+          accent: "#3b82f6",
+          text: "#ffffff",
+          textSecondary: "#a1a1aa",
+          border: "#404040"
+        },
+        light: {
+          primary: "#ffffff",
+          secondary: "#f8fafc",
+          accent: "#3b82f6", 
+          text: "#1f2937",
+          textSecondary: "#6b7280",
+          border: "#e5e7eb"
+        }
       }
     },
     // actions
