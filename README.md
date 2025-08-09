@@ -1,8 +1,20 @@
-# React + Vite
+# React Router & Zustand Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A demonstration project showcasing the integration of React Router for navigation and Zustand for state management in a modern React application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multi-page Navigation**: Home, About, Projects, and dynamic project detail pages
+- **Theme Switching**: Toggle between dark and light themes with persistent state
+- **Component Type Switching**: Dynamic component rendering (Button/Card components)
+- **Project Gallery**: Display and navigate through external project links in embedded iframes
+- **Responsive Design**: Styled with styled-components for a modern UI
+
+## Tech Stack
+
+- **Frontend Framework**: React 18.3.1
+- **Build Tool**: Vite 5.4.8
+- **Routing**: React Router DOM 6.27.0
+- **State Management**: Zustand 5.0.0 with Immer middleware
+- **Styling**: Styled Components 6.1.13
+- **Development**: ESLint for code quality
